@@ -17,6 +17,8 @@ find_package(std_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/ArrayXY.msg"
+  "msg/AlmostThere.msg"
+  "msg/LatLongWayPoint.msg"
   DEPENDENCIES std_msgs
 )
 
